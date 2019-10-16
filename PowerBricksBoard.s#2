@@ -201,50 +201,6 @@ DIN A4, landscape with location and doc. field</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="UCM1H331MNL1GS">
-<packages>
-<package name="UCM1H331MNL1GS">
-<smd name="P$1" x="0" y="-4.5" dx="3" dy="5" layer="1"/>
-<smd name="P$2" x="0" y="4.5" dx="3" dy="5" layer="1"/>
-<wire x1="-5" y1="-5" x2="-5" y2="3" width="0.1524" layer="21"/>
-<wire x1="-3" y1="5" x2="3" y2="5" width="0.1524" layer="21"/>
-<wire x1="5" y1="3" x2="5" y2="-5" width="0.1524" layer="21"/>
-<wire x1="5" y1="-5" x2="-5" y2="-5" width="0.1524" layer="21"/>
-<wire x1="-3" y1="5" x2="-5" y2="3" width="0.127" layer="21"/>
-<wire x1="3" y1="5" x2="5" y2="3" width="0.127" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="CAPACITOR">
-<wire x1="0" y1="-5.08" x2="0" y2="-2.032" width="0.1524" layer="94"/>
-<wire x1="0" y1="-0.508" x2="0" y2="2.54" width="0.1524" layer="94"/>
-<rectangle x1="-2.032" y1="-2.032" x2="2.032" y2="-1.524" layer="94"/>
-<rectangle x1="-2.032" y1="-1.016" x2="2.032" y2="-0.508" layer="94"/>
-<pin name="P$1" x="0" y="5.08" length="middle" rot="R270"/>
-<pin name="P$2" x="0" y="-7.62" length="middle" rot="R90"/>
-<text x="2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="UCM1H331MNL1GS">
-<gates>
-<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="UCM1H331MNL1GS">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -257,9 +213,6 @@ DIN A4, landscape with location and doc. field</description>
 <parts>
 <part name="U$1" library="Q48SC12050NRDH" deviceset="Q48SC12050NRDH" device=""/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
-<part name="U$2" library="UCM1H331MNL1GS" deviceset="UCM1H331MNL1GS" device=""/>
-<part name="U$3" library="UCM1H331MNL1GS" deviceset="UCM1H331MNL1GS" device=""/>
-<part name="U$4" library="UCM1H331MNL1GS" deviceset="UCM1H331MNL1GS" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -272,62 +225,10 @@ DIN A4, landscape with location and doc. field</description>
 <attribute name="LAST_DATE_TIME" x="87.63" y="-68.58" size="2.286" layer="94"/>
 <attribute name="SHEET" x="100.965" y="-73.66" size="2.54" layer="94"/>
 </instance>
-<instance part="U$2" gate="G$1" x="-96.52" y="43.18" smashed="yes">
-<attribute name="NAME" x="-93.98" y="45.72" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-93.98" y="38.1" size="1.778" layer="96"/>
-</instance>
-<instance part="U$3" gate="G$1" x="-78.74" y="43.18" smashed="yes">
-<attribute name="NAME" x="-76.2" y="45.72" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-76.2" y="38.1" size="1.778" layer="96"/>
-</instance>
-<instance part="U$4" gate="G$1" x="-60.96" y="43.18" smashed="yes">
-<attribute name="NAME" x="-58.42" y="45.72" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-58.42" y="38.1" size="1.778" layer="96"/>
-</instance>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="48V" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="P$1"/>
-<wire x1="-96.52" y1="48.26" x2="-96.52" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="-96.52" y1="53.34" x2="-78.74" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="P$1"/>
-<wire x1="-78.74" y1="53.34" x2="-78.74" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="-78.74" y1="53.34" x2="-60.96" y2="53.34" width="0.1524" layer="91"/>
-<junction x="-78.74" y="53.34"/>
-<pinref part="U$4" gate="G$1" pin="P$1"/>
-<wire x1="-60.96" y1="53.34" x2="-60.96" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="-78.74" y1="53.34" x2="-78.74" y2="58.42" width="0.1524" layer="91"/>
-<label x="-78.74" y="58.42" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="VIN(+)"/>
-<wire x1="-17.78" y1="12.7" x2="-30.48" y2="12.7" width="0.1524" layer="91"/>
-<label x="-30.48" y="12.7" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="48_GND" class="0">
-<segment>
-<pinref part="U$4" gate="G$1" pin="P$2"/>
-<wire x1="-60.96" y1="35.56" x2="-60.96" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="-60.96" y1="30.48" x2="-78.74" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="P$2"/>
-<wire x1="-78.74" y1="30.48" x2="-78.74" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="-78.74" y1="30.48" x2="-96.52" y2="30.48" width="0.1524" layer="91"/>
-<junction x="-78.74" y="30.48"/>
-<pinref part="U$2" gate="G$1" pin="P$2"/>
-<wire x1="-96.52" y1="30.48" x2="-96.52" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="-78.74" y1="30.48" x2="-78.74" y2="25.4" width="0.1524" layer="91"/>
-<label x="-78.74" y="25.4" size="1.778" layer="95" rot="R270" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="VIN(-)"/>
-<wire x1="-17.78" y1="-10.16" x2="-30.48" y2="-10.16" width="0.1524" layer="91"/>
-<label x="-27.94" y="-10.16" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 </nets>
 </sheet>
 </sheets>
