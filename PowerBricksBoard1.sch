@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.0">
+<eagle version="9.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1750,7 +1750,7 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <pinref part="U$5" gate="G$1" pin="13"/>
 </segment>
 </net>
-<net name="12V" class="0">
+<net name="G" class="0">
 <segment>
 <wire x1="17.78" y1="20.32" x2="33.02" y2="20.32" width="0.1524" layer="91"/>
 <label x="33.02" y="20.32" size="1.778" layer="95" xref="yes"/>
