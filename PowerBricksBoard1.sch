@@ -1927,15 +1927,13 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <wire x1="-93.98" y1="-10.16" x2="-93.98" y2="-12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="U$5" gate="G$1" pin="53"/>
-<wire x1="81.28" y1="50.8" x2="78.74" y2="50.8" width="0.1524" layer="91"/>
-</segment>
-</net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="113,1,0.531,10.691,FRAME1,,,,,"/>
+<approved hash="113,1,-96.0349,-16.51,D1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
