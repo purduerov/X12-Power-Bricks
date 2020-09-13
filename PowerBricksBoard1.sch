@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -428,220 +428,6 @@ STAND-OFF</description>
 <connect gate="G$1" pin="VIN(-)" pad="48V_GND"/>
 <connect gate="G$1" pin="VOUT(+)" pad="12V"/>
 <connect gate="G$1" pin="VOUT(-)" pad="12V_GND"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="Dist_to_Brickboard_Connector">
-<packages>
-<package name="BRICKBOARD_TSW_14X2">
-<pad name="1" x="0" y="2.54" drill="1" diameter="1.6764"/>
-<pad name="2" x="0" y="0" drill="1" diameter="1.6764"/>
-<pad name="3" x="2.54" y="2.54" drill="1" diameter="1.6764"/>
-<pad name="4" x="2.54" y="0" drill="1" diameter="1.6764"/>
-<pad name="5" x="5.08" y="2.54" drill="1" diameter="1.6764"/>
-<pad name="6" x="5.08" y="0" drill="1" diameter="1.6764"/>
-<pad name="7" x="7.62" y="2.54" drill="1" diameter="1.6764"/>
-<pad name="8" x="7.62" y="0" drill="1" diameter="1.6764"/>
-<pad name="9" x="10.16" y="2.54" drill="1" diameter="1.6764"/>
-<pad name="10" x="10.16" y="0" drill="1" diameter="1.6764"/>
-<pad name="11" x="12.7" y="2.54" drill="1" diameter="1.6764"/>
-<pad name="12" x="12.7" y="0" drill="1" diameter="1.6764"/>
-<pad name="13" x="15.24" y="2.54" drill="1" diameter="1.6764"/>
-<pad name="14" x="15.24" y="0" drill="1" diameter="1.6764"/>
-<pad name="15" x="17.78" y="2.54" drill="1" diameter="1.6764"/>
-<pad name="16" x="17.78" y="0" drill="1" diameter="1.6764"/>
-<pad name="17" x="20.32" y="2.54" drill="1" diameter="1.6764"/>
-<pad name="18" x="20.32" y="0" drill="1" diameter="1.6764"/>
-<pad name="19" x="22.86" y="2.54" drill="1" diameter="1.6764"/>
-<pad name="20" x="22.86" y="0" drill="1" diameter="1.6764"/>
-<pad name="21" x="25.4" y="2.54" drill="1" diameter="1.6764"/>
-<pad name="22" x="25.4" y="0" drill="1" diameter="1.6764"/>
-<pad name="23" x="27.94" y="2.54" drill="1" diameter="1.6764"/>
-<pad name="24" x="27.94" y="0" drill="1" diameter="1.6764"/>
-<pad name="25" x="30.48" y="2.54" drill="1" diameter="1.6764"/>
-<pad name="26" x="30.48" y="0" drill="1" diameter="1.6764"/>
-<pad name="27" x="33.02" y="2.54" drill="1" diameter="1.6764"/>
-<pad name="28" x="33.02" y="0" drill="1" diameter="1.6764"/>
-<wire x1="-1.27" y1="4.064" x2="34.29" y2="4.064" width="0.1524" layer="21"/>
-<wire x1="34.29" y1="4.064" x2="34.29" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="34.29" y1="-1.524" x2="-1.27" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-1.524" x2="-1.27" y2="4.064" width="0.1524" layer="21"/>
-<pad name="29" x="0" y="36.83" drill="1" diameter="1.6764"/>
-<pad name="30" x="0" y="34.29" drill="1" diameter="1.6764"/>
-<pad name="31" x="2.54" y="36.83" drill="1" diameter="1.6764"/>
-<pad name="32" x="2.54" y="34.29" drill="1" diameter="1.6764"/>
-<pad name="33" x="5.08" y="36.83" drill="1" diameter="1.6764"/>
-<pad name="34" x="5.08" y="34.29" drill="1" diameter="1.6764"/>
-<pad name="35" x="7.62" y="36.83" drill="1" diameter="1.6764"/>
-<pad name="36" x="7.62" y="34.29" drill="1" diameter="1.6764"/>
-<pad name="37" x="10.16" y="36.83" drill="1" diameter="1.6764"/>
-<pad name="38" x="10.16" y="34.29" drill="1" diameter="1.6764"/>
-<pad name="39" x="12.7" y="36.83" drill="1" diameter="1.6764"/>
-<pad name="40" x="12.7" y="34.29" drill="1" diameter="1.6764"/>
-<pad name="41" x="15.24" y="36.83" drill="1" diameter="1.6764"/>
-<pad name="42" x="15.24" y="34.29" drill="1" diameter="1.6764"/>
-<pad name="43" x="17.78" y="36.83" drill="1" diameter="1.6764"/>
-<pad name="44" x="17.78" y="34.29" drill="1" diameter="1.6764"/>
-<pad name="45" x="20.32" y="36.83" drill="1" diameter="1.6764"/>
-<pad name="46" x="20.32" y="34.29" drill="1" diameter="1.6764"/>
-<pad name="47" x="22.86" y="36.83" drill="1" diameter="1.6764"/>
-<pad name="48" x="22.86" y="34.29" drill="1" diameter="1.6764"/>
-<pad name="49" x="25.4" y="36.83" drill="1" diameter="1.6764"/>
-<pad name="50" x="25.4" y="34.29" drill="1" diameter="1.6764"/>
-<pad name="51" x="27.94" y="36.83" drill="1" diameter="1.6764"/>
-<pad name="52" x="27.94" y="34.29" drill="1" diameter="1.6764"/>
-<pad name="53" x="30.48" y="36.83" drill="1" diameter="1.6764"/>
-<pad name="54" x="30.48" y="34.29" drill="1" diameter="1.6764"/>
-<pad name="55" x="33.02" y="36.83" drill="1" diameter="1.6764"/>
-<pad name="56" x="33.02" y="34.29" drill="1" diameter="1.6764"/>
-<wire x1="-1.27" y1="38.354" x2="34.29" y2="38.354" width="0.1524" layer="21"/>
-<wire x1="34.29" y1="38.354" x2="34.29" y2="32.766" width="0.1524" layer="21"/>
-<wire x1="34.29" y1="32.766" x2="-1.27" y2="32.766" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="32.766" x2="-1.27" y2="38.354" width="0.1524" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="BRICKBOARD_TSW_14X2">
-<pin name="1" x="-12.7" y="15.24" length="middle"/>
-<pin name="2" x="15.24" y="15.24" length="middle" rot="R180"/>
-<pin name="3" x="-12.7" y="12.7" length="middle"/>
-<pin name="4" x="15.24" y="12.7" length="middle" rot="R180"/>
-<pin name="5" x="-12.7" y="10.16" length="middle"/>
-<pin name="6" x="15.24" y="10.16" length="middle" rot="R180"/>
-<pin name="7" x="-12.7" y="7.62" length="middle"/>
-<pin name="8" x="15.24" y="7.62" length="middle" rot="R180"/>
-<pin name="9" x="-12.7" y="5.08" length="middle"/>
-<pin name="10" x="15.24" y="5.08" length="middle" rot="R180"/>
-<pin name="11" x="-12.7" y="2.54" length="middle"/>
-<pin name="12" x="15.24" y="2.54" length="middle" rot="R180"/>
-<pin name="13" x="-12.7" y="0" length="middle"/>
-<pin name="14" x="15.24" y="0" length="middle" rot="R180"/>
-<pin name="15" x="-12.7" y="-2.54" length="middle"/>
-<pin name="16" x="15.24" y="-2.54" length="middle" rot="R180"/>
-<pin name="17" x="-12.7" y="-5.08" length="middle"/>
-<pin name="18" x="15.24" y="-5.08" length="middle" rot="R180"/>
-<pin name="19" x="-12.7" y="-7.62" length="middle"/>
-<pin name="20" x="15.24" y="-7.62" length="middle" rot="R180"/>
-<pin name="21" x="-12.7" y="-10.16" length="middle"/>
-<pin name="22" x="15.24" y="-10.16" length="middle" rot="R180"/>
-<pin name="23" x="-12.7" y="-12.7" length="middle"/>
-<pin name="24" x="15.24" y="-12.7" length="middle" rot="R180"/>
-<pin name="25" x="-12.7" y="-15.24" length="middle"/>
-<pin name="26" x="15.24" y="-15.24" length="middle" rot="R180"/>
-<pin name="27" x="-12.7" y="-17.78" length="middle"/>
-<pin name="28" x="15.24" y="-17.78" length="middle" rot="R180"/>
-<wire x1="-7.62" y1="17.78" x2="-7.62" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-20.32" x2="10.16" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-20.32" x2="10.16" y2="17.78" width="0.254" layer="94"/>
-<wire x1="10.16" y1="17.78" x2="-7.62" y2="17.78" width="0.254" layer="94"/>
-<text x="-7.62" y="18.034" size="1.778" layer="95">&gt;NAME</text>
-<text x="-7.62" y="-22.86" size="1.778" layer="95">&gt;VALUE</text>
-<pin name="29" x="45.72" y="15.24" length="middle"/>
-<pin name="30" x="73.66" y="15.24" length="middle" rot="R180"/>
-<pin name="31" x="45.72" y="12.7" length="middle"/>
-<pin name="32" x="73.66" y="12.7" length="middle" rot="R180"/>
-<pin name="33" x="45.72" y="10.16" length="middle"/>
-<pin name="34" x="73.66" y="10.16" length="middle" rot="R180"/>
-<pin name="35" x="45.72" y="7.62" length="middle"/>
-<pin name="36" x="73.66" y="7.62" length="middle" rot="R180"/>
-<pin name="37" x="45.72" y="5.08" length="middle"/>
-<pin name="38" x="73.66" y="5.08" length="middle" rot="R180"/>
-<pin name="39" x="45.72" y="2.54" length="middle"/>
-<pin name="40" x="73.66" y="2.54" length="middle" rot="R180"/>
-<pin name="41" x="45.72" y="0" length="middle"/>
-<pin name="42" x="73.66" y="0" length="middle" rot="R180"/>
-<pin name="43" x="45.72" y="-2.54" length="middle"/>
-<pin name="44" x="73.66" y="-2.54" length="middle" rot="R180"/>
-<pin name="45" x="45.72" y="-5.08" length="middle"/>
-<pin name="46" x="73.66" y="-5.08" length="middle" rot="R180"/>
-<pin name="47" x="45.72" y="-7.62" length="middle"/>
-<pin name="48" x="73.66" y="-7.62" length="middle" rot="R180"/>
-<pin name="49" x="45.72" y="-10.16" length="middle"/>
-<pin name="50" x="73.66" y="-10.16" length="middle" rot="R180"/>
-<pin name="51" x="45.72" y="-12.7" length="middle"/>
-<pin name="52" x="73.66" y="-12.7" length="middle" rot="R180"/>
-<pin name="53" x="45.72" y="-15.24" length="middle"/>
-<pin name="54" x="73.66" y="-15.24" length="middle" rot="R180"/>
-<pin name="55" x="45.72" y="-17.78" length="middle"/>
-<pin name="56" x="73.66" y="-17.78" length="middle" rot="R180"/>
-<wire x1="50.8" y1="17.78" x2="50.8" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="50.8" y1="-20.32" x2="68.58" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="68.58" y1="-20.32" x2="68.58" y2="17.78" width="0.254" layer="94"/>
-<wire x1="68.58" y1="17.78" x2="50.8" y2="17.78" width="0.254" layer="94"/>
-<text x="50.8" y="18.034" size="1.778" layer="95">&gt;NAME</text>
-<text x="50.8" y="-22.86" size="1.778" layer="95">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="BRICKBOARD_TSW_14X2">
-<gates>
-<gate name="G$1" symbol="BRICKBOARD_TSW_14X2" x="-2.54" y="5.08"/>
-</gates>
-<devices>
-<device name="" package="BRICKBOARD_TSW_14X2">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="11" pad="11"/>
-<connect gate="G$1" pin="12" pad="12"/>
-<connect gate="G$1" pin="13" pad="13"/>
-<connect gate="G$1" pin="14" pad="14"/>
-<connect gate="G$1" pin="15" pad="15"/>
-<connect gate="G$1" pin="16" pad="16"/>
-<connect gate="G$1" pin="17" pad="17"/>
-<connect gate="G$1" pin="18" pad="18"/>
-<connect gate="G$1" pin="19" pad="19"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="20" pad="20"/>
-<connect gate="G$1" pin="21" pad="21"/>
-<connect gate="G$1" pin="22" pad="22"/>
-<connect gate="G$1" pin="23" pad="23"/>
-<connect gate="G$1" pin="24" pad="24"/>
-<connect gate="G$1" pin="25" pad="25"/>
-<connect gate="G$1" pin="26" pad="26"/>
-<connect gate="G$1" pin="27" pad="27"/>
-<connect gate="G$1" pin="28" pad="28"/>
-<connect gate="G$1" pin="29" pad="29"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="30" pad="30"/>
-<connect gate="G$1" pin="31" pad="31"/>
-<connect gate="G$1" pin="32" pad="32"/>
-<connect gate="G$1" pin="33" pad="33"/>
-<connect gate="G$1" pin="34" pad="34"/>
-<connect gate="G$1" pin="35" pad="35"/>
-<connect gate="G$1" pin="36" pad="36"/>
-<connect gate="G$1" pin="37" pad="37"/>
-<connect gate="G$1" pin="38" pad="38"/>
-<connect gate="G$1" pin="39" pad="39"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="40" pad="40"/>
-<connect gate="G$1" pin="41" pad="41"/>
-<connect gate="G$1" pin="42" pad="42"/>
-<connect gate="G$1" pin="43" pad="43"/>
-<connect gate="G$1" pin="44" pad="44"/>
-<connect gate="G$1" pin="45" pad="45"/>
-<connect gate="G$1" pin="46" pad="46"/>
-<connect gate="G$1" pin="47" pad="47"/>
-<connect gate="G$1" pin="48" pad="48"/>
-<connect gate="G$1" pin="49" pad="49"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="50" pad="50"/>
-<connect gate="G$1" pin="51" pad="51"/>
-<connect gate="G$1" pin="52" pad="52"/>
-<connect gate="G$1" pin="53" pad="53"/>
-<connect gate="G$1" pin="54" pad="54"/>
-<connect gate="G$1" pin="55" pad="55"/>
-<connect gate="G$1" pin="56" pad="56"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1534,6 +1320,230 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 </deviceset>
 </devicesets>
 </library>
+<library name="Dist_to_Brickboard_Connector_brick">
+<packages>
+<package name="BRICKBOARD_TSW_14X2" urn="urn:adsk.eagle:footprint:23225956/1">
+<pad name="1" x="0" y="2.54" drill="1" diameter="1.6764"/>
+<pad name="2" x="0" y="0" drill="1" diameter="1.6764"/>
+<pad name="3" x="2.54" y="2.54" drill="1" diameter="1.6764"/>
+<pad name="4" x="2.54" y="0" drill="1" diameter="1.6764"/>
+<pad name="5" x="5.08" y="2.54" drill="1" diameter="1.6764"/>
+<pad name="6" x="5.08" y="0" drill="1" diameter="1.6764"/>
+<pad name="7" x="7.62" y="2.54" drill="1" diameter="1.6764"/>
+<pad name="8" x="7.62" y="0" drill="1" diameter="1.6764"/>
+<pad name="9" x="10.16" y="2.54" drill="1" diameter="1.6764"/>
+<pad name="10" x="10.16" y="0" drill="1" diameter="1.6764"/>
+<pad name="11" x="12.7" y="2.54" drill="1" diameter="1.6764"/>
+<pad name="12" x="12.7" y="0" drill="1" diameter="1.6764"/>
+<pad name="13" x="15.24" y="2.54" drill="1" diameter="1.6764"/>
+<pad name="14" x="15.24" y="0" drill="1" diameter="1.6764"/>
+<pad name="15" x="17.78" y="2.54" drill="1" diameter="1.6764"/>
+<pad name="16" x="17.78" y="0" drill="1" diameter="1.6764"/>
+<pad name="17" x="20.32" y="2.54" drill="1" diameter="1.6764"/>
+<pad name="18" x="20.32" y="0" drill="1" diameter="1.6764"/>
+<pad name="19" x="22.86" y="2.54" drill="1" diameter="1.6764"/>
+<pad name="20" x="22.86" y="0" drill="1" diameter="1.6764"/>
+<pad name="21" x="25.4" y="2.54" drill="1" diameter="1.6764"/>
+<pad name="22" x="25.4" y="0" drill="1" diameter="1.6764"/>
+<pad name="23" x="27.94" y="2.54" drill="1" diameter="1.6764"/>
+<pad name="24" x="27.94" y="0" drill="1" diameter="1.6764"/>
+<pad name="25" x="30.48" y="2.54" drill="1" diameter="1.6764"/>
+<pad name="26" x="30.48" y="0" drill="1" diameter="1.6764"/>
+<pad name="27" x="33.02" y="2.54" drill="1" diameter="1.6764"/>
+<pad name="28" x="33.02" y="0" drill="1" diameter="1.6764"/>
+<pad name="29" x="0" y="36.83" drill="1" diameter="1.6764"/>
+<pad name="30" x="0" y="34.29" drill="1" diameter="1.6764"/>
+<pad name="31" x="2.54" y="36.83" drill="1" diameter="1.6764"/>
+<pad name="32" x="2.54" y="34.29" drill="1" diameter="1.6764"/>
+<pad name="33" x="5.08" y="36.83" drill="1" diameter="1.6764"/>
+<pad name="34" x="5.08" y="34.29" drill="1" diameter="1.6764"/>
+<pad name="35" x="7.62" y="36.83" drill="1" diameter="1.6764"/>
+<pad name="36" x="7.62" y="34.29" drill="1" diameter="1.6764"/>
+<pad name="37" x="10.16" y="36.83" drill="1" diameter="1.6764"/>
+<pad name="38" x="10.16" y="34.29" drill="1" diameter="1.6764"/>
+<pad name="39" x="12.7" y="36.83" drill="1" diameter="1.6764"/>
+<pad name="40" x="12.7" y="34.29" drill="1" diameter="1.6764"/>
+<pad name="41" x="15.24" y="36.83" drill="1" diameter="1.6764"/>
+<pad name="42" x="15.24" y="34.29" drill="1" diameter="1.6764"/>
+<pad name="43" x="17.78" y="36.83" drill="1" diameter="1.6764"/>
+<pad name="44" x="17.78" y="34.29" drill="1" diameter="1.6764"/>
+<pad name="45" x="20.32" y="36.83" drill="1" diameter="1.6764"/>
+<pad name="46" x="20.32" y="34.29" drill="1" diameter="1.6764"/>
+<pad name="47" x="22.86" y="36.83" drill="1" diameter="1.6764"/>
+<pad name="48" x="22.86" y="34.29" drill="1" diameter="1.6764"/>
+<pad name="49" x="25.4" y="36.83" drill="1" diameter="1.6764"/>
+<pad name="50" x="25.4" y="34.29" drill="1" diameter="1.6764"/>
+<pad name="51" x="27.94" y="36.83" drill="1" diameter="1.6764"/>
+<pad name="52" x="27.94" y="34.29" drill="1" diameter="1.6764"/>
+<pad name="53" x="30.48" y="36.83" drill="1" diameter="1.6764"/>
+<pad name="54" x="30.48" y="34.29" drill="1" diameter="1.6764"/>
+<pad name="55" x="33.02" y="36.83" drill="1" diameter="1.6764"/>
+<pad name="56" x="33.02" y="34.29" drill="1" diameter="1.6764"/>
+<wire x1="-1.27" y1="4.064" x2="34.29" y2="4.064" width="0.1524" layer="21"/>
+<wire x1="34.29" y1="4.064" x2="34.29" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="34.29" y1="-1.524" x2="-1.27" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-1.524" x2="-1.27" y2="4.064" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="38.354" x2="34.29" y2="38.354" width="0.1524" layer="21"/>
+<wire x1="34.29" y1="38.354" x2="34.29" y2="32.766" width="0.1524" layer="21"/>
+<wire x1="34.29" y1="32.766" x2="-1.27" y2="32.766" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="32.766" x2="-1.27" y2="38.354" width="0.1524" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="BRICKBOARD_TSW_14X2" urn="urn:adsk.eagle:package:23225958/2" type="model">
+<packageinstances>
+<packageinstance name="BRICKBOARD_TSW_14X2"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="BRICKBOARD_TSW_14X2">
+<pin name="1" x="-12.7" y="15.24" length="middle"/>
+<pin name="2" x="15.24" y="15.24" length="middle" rot="R180"/>
+<pin name="3" x="-12.7" y="12.7" length="middle"/>
+<pin name="4" x="15.24" y="12.7" length="middle" rot="R180"/>
+<pin name="5" x="-12.7" y="10.16" length="middle"/>
+<pin name="6" x="15.24" y="10.16" length="middle" rot="R180"/>
+<pin name="7" x="-12.7" y="7.62" length="middle"/>
+<pin name="8" x="15.24" y="7.62" length="middle" rot="R180"/>
+<pin name="9" x="-12.7" y="5.08" length="middle"/>
+<pin name="10" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="11" x="-12.7" y="2.54" length="middle"/>
+<pin name="12" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="13" x="-12.7" y="0" length="middle"/>
+<pin name="14" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="15" x="-12.7" y="-2.54" length="middle"/>
+<pin name="16" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<pin name="17" x="-12.7" y="-5.08" length="middle"/>
+<pin name="18" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="19" x="-12.7" y="-7.62" length="middle"/>
+<pin name="20" x="15.24" y="-7.62" length="middle" rot="R180"/>
+<pin name="21" x="-12.7" y="-10.16" length="middle"/>
+<pin name="22" x="15.24" y="-10.16" length="middle" rot="R180"/>
+<pin name="23" x="-12.7" y="-12.7" length="middle"/>
+<pin name="24" x="15.24" y="-12.7" length="middle" rot="R180"/>
+<pin name="25" x="-12.7" y="-15.24" length="middle"/>
+<pin name="26" x="15.24" y="-15.24" length="middle" rot="R180"/>
+<pin name="27" x="-12.7" y="-17.78" length="middle"/>
+<pin name="28" x="15.24" y="-17.78" length="middle" rot="R180"/>
+<pin name="29" x="45.72" y="15.24" length="middle"/>
+<pin name="30" x="73.66" y="15.24" length="middle" rot="R180"/>
+<pin name="31" x="45.72" y="12.7" length="middle"/>
+<pin name="32" x="73.66" y="12.7" length="middle" rot="R180"/>
+<pin name="33" x="45.72" y="10.16" length="middle"/>
+<pin name="34" x="73.66" y="10.16" length="middle" rot="R180"/>
+<pin name="35" x="45.72" y="7.62" length="middle"/>
+<pin name="36" x="73.66" y="7.62" length="middle" rot="R180"/>
+<pin name="37" x="45.72" y="5.08" length="middle"/>
+<pin name="38" x="73.66" y="5.08" length="middle" rot="R180"/>
+<pin name="39" x="45.72" y="2.54" length="middle"/>
+<pin name="40" x="73.66" y="2.54" length="middle" rot="R180"/>
+<pin name="41" x="45.72" y="0" length="middle"/>
+<pin name="42" x="73.66" y="0" length="middle" rot="R180"/>
+<pin name="43" x="45.72" y="-2.54" length="middle"/>
+<pin name="44" x="73.66" y="-2.54" length="middle" rot="R180"/>
+<pin name="45" x="45.72" y="-5.08" length="middle"/>
+<pin name="46" x="73.66" y="-5.08" length="middle" rot="R180"/>
+<pin name="47" x="45.72" y="-7.62" length="middle"/>
+<pin name="48" x="73.66" y="-7.62" length="middle" rot="R180"/>
+<pin name="49" x="45.72" y="-10.16" length="middle"/>
+<pin name="50" x="73.66" y="-10.16" length="middle" rot="R180"/>
+<pin name="51" x="45.72" y="-12.7" length="middle"/>
+<pin name="52" x="73.66" y="-12.7" length="middle" rot="R180"/>
+<pin name="53" x="45.72" y="-15.24" length="middle"/>
+<pin name="54" x="73.66" y="-15.24" length="middle" rot="R180"/>
+<pin name="55" x="45.72" y="-17.78" length="middle"/>
+<pin name="56" x="73.66" y="-17.78" length="middle" rot="R180"/>
+<wire x1="-7.62" y1="17.78" x2="-7.62" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-20.32" x2="10.16" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-20.32" x2="10.16" y2="17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="17.78" x2="-7.62" y2="17.78" width="0.254" layer="94"/>
+<wire x1="50.8" y1="17.78" x2="50.8" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="50.8" y1="-20.32" x2="68.58" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="68.58" y1="-20.32" x2="68.58" y2="17.78" width="0.254" layer="94"/>
+<wire x1="68.58" y1="17.78" x2="50.8" y2="17.78" width="0.254" layer="94"/>
+<text x="-7.62" y="18.034" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-22.86" size="1.778" layer="95">&gt;VALUE</text>
+<text x="50.8" y="18.034" size="1.778" layer="95">&gt;NAME</text>
+<text x="50.8" y="-22.86" size="1.778" layer="95">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BRICKBOARD_TSW_14X2">
+<gates>
+<gate name="G$1" symbol="BRICKBOARD_TSW_14X2" x="-2.54" y="5.08"/>
+</gates>
+<devices>
+<device name="" package="BRICKBOARD_TSW_14X2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="21" pad="21"/>
+<connect gate="G$1" pin="22" pad="22"/>
+<connect gate="G$1" pin="23" pad="23"/>
+<connect gate="G$1" pin="24" pad="24"/>
+<connect gate="G$1" pin="25" pad="25"/>
+<connect gate="G$1" pin="26" pad="26"/>
+<connect gate="G$1" pin="27" pad="27"/>
+<connect gate="G$1" pin="28" pad="28"/>
+<connect gate="G$1" pin="29" pad="29"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="30" pad="30"/>
+<connect gate="G$1" pin="31" pad="31"/>
+<connect gate="G$1" pin="32" pad="32"/>
+<connect gate="G$1" pin="33" pad="33"/>
+<connect gate="G$1" pin="34" pad="34"/>
+<connect gate="G$1" pin="35" pad="35"/>
+<connect gate="G$1" pin="36" pad="36"/>
+<connect gate="G$1" pin="37" pad="37"/>
+<connect gate="G$1" pin="38" pad="38"/>
+<connect gate="G$1" pin="39" pad="39"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="40" pad="40"/>
+<connect gate="G$1" pin="41" pad="41"/>
+<connect gate="G$1" pin="42" pad="42"/>
+<connect gate="G$1" pin="43" pad="43"/>
+<connect gate="G$1" pin="44" pad="44"/>
+<connect gate="G$1" pin="45" pad="45"/>
+<connect gate="G$1" pin="46" pad="46"/>
+<connect gate="G$1" pin="47" pad="47"/>
+<connect gate="G$1" pin="48" pad="48"/>
+<connect gate="G$1" pin="49" pad="49"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="50" pad="50"/>
+<connect gate="G$1" pin="51" pad="51"/>
+<connect gate="G$1" pin="52" pad="52"/>
+<connect gate="G$1" pin="53" pad="53"/>
+<connect gate="G$1" pin="54" pad="54"/>
+<connect gate="G$1" pin="55" pad="55"/>
+<connect gate="G$1" pin="56" pad="56"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23225958/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1553,11 +1563,11 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <part name="H3" library="SparkFun-Hardware" library_urn="urn:adsk.eagle:library:519" deviceset="STAND-OFF" device="" package3d_urn="urn:adsk.eagle:package:38630/1"/>
 <part name="H4" library="SparkFun-Hardware" library_urn="urn:adsk.eagle:library:519" deviceset="STAND-OFF" device="" package3d_urn="urn:adsk.eagle:package:38630/1"/>
 <part name="U$1" library="Q48SC12050NRDH" deviceset="Q48SC12050NRDH" device=""/>
-<part name="U$5" library="Dist_to_Brickboard_Connector" deviceset="BRICKBOARD_TSW_14X2" device=""/>
 <part name="D1" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1"/>
 <part name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="470"/>
 <part name="D2" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1"/>
 <part name="R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="470"/>
+<part name="U$6" library="Dist_to_Brickboard_Connector_brick" deviceset="BRICKBOARD_TSW_14X2" device="" package3d_urn="urn:adsk.eagle:package:23225958/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -1586,12 +1596,6 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <instance part="H3" gate="G$1" x="104.14" y="10.16" smashed="yes"/>
 <instance part="H4" gate="G$1" x="109.22" y="10.16" smashed="yes"/>
 <instance part="U$1" gate="G$1" x="0" y="0" smashed="yes"/>
-<instance part="U$5" gate="G$1" x="35.56" y="66.04" smashed="yes">
-<attribute name="NAME" x="27.94" y="84.074" size="1.778" layer="95"/>
-<attribute name="VALUE" x="27.94" y="43.18" size="1.778" layer="95"/>
-<attribute name="NAME" x="86.36" y="84.074" size="1.778" layer="95"/>
-<attribute name="VALUE" x="86.36" y="43.18" size="1.778" layer="95"/>
-</instance>
 <instance part="D1" gate="G$1" x="-93.98" y="-15.24" smashed="yes">
 <attribute name="NAME" x="-97.409" y="-19.812" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="VALUE" x="-92.075" y="-19.812" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
@@ -1607,6 +1611,12 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <instance part="R2" gate="G$1" x="-66.04" y="-5.08" smashed="yes" rot="R90">
 <attribute name="NAME" x="-67.564" y="-5.08" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="-64.516" y="-5.08" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
+<instance part="U$6" gate="G$1" x="35.56" y="66.04" smashed="yes">
+<attribute name="NAME" x="27.94" y="84.074" size="1.778" layer="95"/>
+<attribute name="VALUE" x="27.94" y="43.18" size="1.778" layer="95"/>
+<attribute name="NAME" x="86.36" y="84.074" size="1.778" layer="95"/>
+<attribute name="VALUE" x="86.36" y="43.18" size="1.778" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -1652,13 +1662,13 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <junction x="53.34" y="50.8"/>
 <wire x1="53.34" y1="55.88" x2="55.88" y2="55.88" width="0.1524" layer="91"/>
 <label x="55.88" y="55.88" size="1.778" layer="95" xref="yes"/>
-<pinref part="U$5" gate="G$1" pin="16"/>
-<pinref part="U$5" gate="G$1" pin="18"/>
-<pinref part="U$5" gate="G$1" pin="20"/>
-<pinref part="U$5" gate="G$1" pin="22"/>
-<pinref part="U$5" gate="G$1" pin="24"/>
-<pinref part="U$5" gate="G$1" pin="26"/>
-<pinref part="U$5" gate="G$1" pin="28"/>
+<pinref part="U$6" gate="G$1" pin="16"/>
+<pinref part="U$6" gate="G$1" pin="18"/>
+<pinref part="U$6" gate="G$1" pin="20"/>
+<pinref part="U$6" gate="G$1" pin="22"/>
+<pinref part="U$6" gate="G$1" pin="24"/>
+<pinref part="U$6" gate="G$1" pin="26"/>
+<pinref part="U$6" gate="G$1" pin="28"/>
 </segment>
 <segment>
 <wire x1="22.86" y1="63.5" x2="20.32" y2="63.5" width="0.1524" layer="91"/>
@@ -1681,13 +1691,13 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <junction x="20.32" y="50.8"/>
 <wire x1="20.32" y1="55.88" x2="17.78" y2="55.88" width="0.1524" layer="91"/>
 <label x="17.78" y="55.88" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$5" gate="G$1" pin="15"/>
-<pinref part="U$5" gate="G$1" pin="17"/>
-<pinref part="U$5" gate="G$1" pin="19"/>
-<pinref part="U$5" gate="G$1" pin="21"/>
-<pinref part="U$5" gate="G$1" pin="23"/>
-<pinref part="U$5" gate="G$1" pin="25"/>
-<pinref part="U$5" gate="G$1" pin="27"/>
+<pinref part="U$6" gate="G$1" pin="15"/>
+<pinref part="U$6" gate="G$1" pin="17"/>
+<pinref part="U$6" gate="G$1" pin="19"/>
+<pinref part="U$6" gate="G$1" pin="21"/>
+<pinref part="U$6" gate="G$1" pin="23"/>
+<pinref part="U$6" gate="G$1" pin="25"/>
+<pinref part="U$6" gate="G$1" pin="27"/>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
@@ -1732,12 +1742,12 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <junction x="53.34" y="68.58"/>
 <wire x1="53.34" y1="71.12" x2="55.88" y2="71.12" width="0.1524" layer="91"/>
 <label x="55.88" y="71.12" size="1.778" layer="95" xref="yes"/>
-<pinref part="U$5" gate="G$1" pin="4"/>
-<pinref part="U$5" gate="G$1" pin="6"/>
-<pinref part="U$5" gate="G$1" pin="8"/>
-<pinref part="U$5" gate="G$1" pin="10"/>
-<pinref part="U$5" gate="G$1" pin="12"/>
-<pinref part="U$5" gate="G$1" pin="14"/>
+<pinref part="U$6" gate="G$1" pin="4"/>
+<pinref part="U$6" gate="G$1" pin="6"/>
+<pinref part="U$6" gate="G$1" pin="8"/>
+<pinref part="U$6" gate="G$1" pin="10"/>
+<pinref part="U$6" gate="G$1" pin="12"/>
+<pinref part="U$6" gate="G$1" pin="14"/>
 </segment>
 <segment>
 <wire x1="20.32" y1="78.74" x2="22.86" y2="78.74" width="0.1524" layer="91"/>
@@ -1757,12 +1767,12 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <junction x="20.32" y="68.58"/>
 <wire x1="20.32" y1="71.12" x2="17.78" y2="71.12" width="0.1524" layer="91"/>
 <label x="17.78" y="71.12" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$5" gate="G$1" pin="3"/>
-<pinref part="U$5" gate="G$1" pin="5"/>
-<pinref part="U$5" gate="G$1" pin="7"/>
-<pinref part="U$5" gate="G$1" pin="9"/>
-<pinref part="U$5" gate="G$1" pin="11"/>
-<pinref part="U$5" gate="G$1" pin="13"/>
+<pinref part="U$6" gate="G$1" pin="3"/>
+<pinref part="U$6" gate="G$1" pin="5"/>
+<pinref part="U$6" gate="G$1" pin="7"/>
+<pinref part="U$6" gate="G$1" pin="9"/>
+<pinref part="U$6" gate="G$1" pin="11"/>
+<pinref part="U$6" gate="G$1" pin="13"/>
 </segment>
 <segment>
 <pinref part="D2" gate="G$1" pin="C"/>
@@ -1782,59 +1792,59 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <label x="-93.98" y="5.08" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$5" gate="G$1" pin="50"/>
 <wire x1="109.22" y1="55.88" x2="111.76" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="46"/>
 <wire x1="109.22" y1="60.96" x2="111.76" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="48"/>
 <wire x1="109.22" y1="58.42" x2="111.76" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="60.96" x2="111.76" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="55.88" x2="111.76" y2="58.42" width="0.1524" layer="91"/>
 <junction x="111.76" y="58.42"/>
-<pinref part="U$5" gate="G$1" pin="52"/>
 <wire x1="109.22" y1="53.34" x2="111.76" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="55.88" x2="111.76" y2="53.34" width="0.1524" layer="91"/>
 <junction x="111.76" y="55.88"/>
 <label x="111.76" y="60.96" size="1.778" layer="95" xref="yes"/>
 <wire x1="111.76" y1="53.34" x2="111.76" y2="50.8" width="0.1524" layer="91"/>
 <junction x="111.76" y="53.34"/>
-<pinref part="U$5" gate="G$1" pin="54"/>
 <wire x1="111.76" y1="50.8" x2="109.22" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="56"/>
 <wire x1="109.22" y1="48.26" x2="111.76" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="50.8" x2="111.76" y2="48.26" width="0.1524" layer="91"/>
 <junction x="111.76" y="50.8"/>
+<pinref part="U$6" gate="G$1" pin="46"/>
+<pinref part="U$6" gate="G$1" pin="48"/>
+<pinref part="U$6" gate="G$1" pin="50"/>
+<pinref part="U$6" gate="G$1" pin="52"/>
+<pinref part="U$6" gate="G$1" pin="54"/>
+<pinref part="U$6" gate="G$1" pin="56"/>
 </segment>
 <segment>
-<pinref part="U$5" gate="G$1" pin="55"/>
 <wire x1="81.28" y1="48.26" x2="78.74" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="45"/>
 <wire x1="81.28" y1="60.96" x2="78.74" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="47"/>
 <wire x1="81.28" y1="58.42" x2="78.74" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="60.96" x2="78.74" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="49"/>
 <wire x1="81.28" y1="55.88" x2="78.74" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="58.42" x2="78.74" y2="55.88" width="0.1524" layer="91"/>
 <junction x="78.74" y="58.42"/>
-<pinref part="U$5" gate="G$1" pin="51"/>
 <wire x1="81.28" y1="53.34" x2="78.74" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="55.88" x2="78.74" y2="53.34" width="0.1524" layer="91"/>
 <junction x="78.74" y="55.88"/>
 <label x="78.74" y="60.96" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$5" gate="G$1" pin="53"/>
 <wire x1="81.28" y1="50.8" x2="78.74" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="53.34" x2="78.74" y2="50.8" width="0.1524" layer="91"/>
 <junction x="78.74" y="53.34"/>
 <wire x1="78.74" y1="50.8" x2="78.74" y2="48.26" width="0.1524" layer="91"/>
 <junction x="78.74" y="50.8"/>
+<pinref part="U$6" gate="G$1" pin="45"/>
+<pinref part="U$6" gate="G$1" pin="47"/>
+<pinref part="U$6" gate="G$1" pin="49"/>
+<pinref part="U$6" gate="G$1" pin="51"/>
+<pinref part="U$6" gate="G$1" pin="53"/>
+<pinref part="U$6" gate="G$1" pin="55"/>
 </segment>
 </net>
 <net name="ON/OFF" class="0">
 <segment>
 <wire x1="22.86" y1="81.28" x2="20.32" y2="81.28" width="0.1524" layer="91"/>
 <label x="20.32" y="81.28" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$5" gate="G$1" pin="1"/>
+<pinref part="U$6" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="-17.78" y1="5.08" x2="-30.48" y2="5.08" width="0.1524" layer="91"/>
@@ -1854,52 +1864,52 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <label x="-93.98" y="-27.94" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$5" gate="G$1" pin="29"/>
 <wire x1="81.28" y1="81.28" x2="78.74" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="31"/>
 <wire x1="81.28" y1="78.74" x2="78.74" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="81.28" x2="78.74" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="33"/>
 <wire x1="81.28" y1="76.2" x2="78.74" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="78.74" x2="78.74" y2="76.2" width="0.1524" layer="91"/>
 <junction x="78.74" y="78.74"/>
-<pinref part="U$5" gate="G$1" pin="35"/>
 <wire x1="81.28" y1="73.66" x2="78.74" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="76.2" x2="78.74" y2="73.66" width="0.1524" layer="91"/>
 <junction x="78.74" y="76.2"/>
-<pinref part="U$5" gate="G$1" pin="37"/>
 <wire x1="81.28" y1="71.12" x2="78.74" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="73.66" x2="78.74" y2="71.12" width="0.1524" layer="91"/>
 <junction x="78.74" y="73.66"/>
-<pinref part="U$5" gate="G$1" pin="39"/>
 <wire x1="81.28" y1="68.58" x2="78.74" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="71.12" x2="78.74" y2="68.58" width="0.1524" layer="91"/>
 <junction x="78.74" y="71.12"/>
 <label x="78.74" y="76.2" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$6" gate="G$1" pin="29"/>
+<pinref part="U$6" gate="G$1" pin="31"/>
+<pinref part="U$6" gate="G$1" pin="33"/>
+<pinref part="U$6" gate="G$1" pin="35"/>
+<pinref part="U$6" gate="G$1" pin="37"/>
+<pinref part="U$6" gate="G$1" pin="39"/>
 </segment>
 <segment>
-<pinref part="U$5" gate="G$1" pin="30"/>
 <wire x1="109.22" y1="81.28" x2="111.76" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="32"/>
 <wire x1="109.22" y1="78.74" x2="111.76" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="81.28" x2="111.76" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="34"/>
 <wire x1="109.22" y1="76.2" x2="111.76" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="78.74" x2="111.76" y2="76.2" width="0.1524" layer="91"/>
 <junction x="111.76" y="78.74"/>
-<pinref part="U$5" gate="G$1" pin="36"/>
 <wire x1="109.22" y1="73.66" x2="111.76" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="76.2" x2="111.76" y2="73.66" width="0.1524" layer="91"/>
 <junction x="111.76" y="76.2"/>
-<pinref part="U$5" gate="G$1" pin="38"/>
 <wire x1="109.22" y1="71.12" x2="111.76" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="73.66" x2="111.76" y2="71.12" width="0.1524" layer="91"/>
 <junction x="111.76" y="73.66"/>
-<pinref part="U$5" gate="G$1" pin="40"/>
 <wire x1="109.22" y1="68.58" x2="111.76" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="71.12" x2="111.76" y2="68.58" width="0.1524" layer="91"/>
 <junction x="111.76" y="71.12"/>
 <label x="111.76" y="76.2" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$6" gate="G$1" pin="30"/>
+<pinref part="U$6" gate="G$1" pin="32"/>
+<pinref part="U$6" gate="G$1" pin="34"/>
+<pinref part="U$6" gate="G$1" pin="36"/>
+<pinref part="U$6" gate="G$1" pin="38"/>
+<pinref part="U$6" gate="G$1" pin="40"/>
 </segment>
 </net>
 <net name="ALERT" class="0">
@@ -1909,9 +1919,9 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <pinref part="U$1" gate="G$1" pin="SMBALERT"/>
 </segment>
 <segment>
-<pinref part="U$5" gate="G$1" pin="43"/>
 <wire x1="81.28" y1="63.5" x2="78.74" y2="63.5" width="0.1524" layer="91"/>
 <label x="78.74" y="63.5" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$6" gate="G$1" pin="43"/>
 </segment>
 </net>
 <net name="DATA" class="0">
@@ -1921,9 +1931,9 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <pinref part="U$1" gate="G$1" pin="PMBDATA"/>
 </segment>
 <segment>
-<pinref part="U$5" gate="G$1" pin="42"/>
 <wire x1="109.22" y1="66.04" x2="111.76" y2="66.04" width="0.1524" layer="91"/>
 <label x="111.76" y="66.04" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$6" gate="G$1" pin="42"/>
 </segment>
 </net>
 <net name="CLK" class="0">
@@ -1933,9 +1943,9 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <pinref part="U$1" gate="G$1" pin="PMBCLK"/>
 </segment>
 <segment>
-<pinref part="U$5" gate="G$1" pin="44"/>
 <wire x1="109.22" y1="63.5" x2="111.76" y2="63.5" width="0.1524" layer="91"/>
 <label x="111.76" y="63.5" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$6" gate="G$1" pin="44"/>
 </segment>
 </net>
 <net name="N$1" class="0">
